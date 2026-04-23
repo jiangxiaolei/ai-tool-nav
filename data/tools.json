@@ -1,0 +1,4278 @@
+{
+  "categories": [
+    {
+      "id": "writing",
+      "name": "Writing",
+      "icon": "📝"
+    },
+    {
+      "id": "image",
+      "name": "Image Generation",
+      "icon": "🎨"
+    },
+    {
+      "id": "video",
+      "name": "Video Creation",
+      "icon": "🎬"
+    },
+    {
+      "id": "audio",
+      "name": "Audio Processing",
+      "icon": "🎵"
+    },
+    {
+      "id": "code",
+      "name": "Coding & Development",
+      "icon": "💻"
+    },
+    {
+      "id": "chat",
+      "name": "Chat & Assistant",
+      "icon": "💬"
+    },
+    {
+      "id": "productivity",
+      "name": "Productivity & Office",
+      "icon": "⚡"
+    },
+    {
+      "id": "education",
+      "name": "Education & Learning",
+      "icon": "📚"
+    }
+  ],
+  "tools": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "description": "OpenAI 开发的 AI 对话助手，支持多种任务如写作、编程、分析等",
+      "url": "https://chat.openai.com",
+      "category": "chat",
+      "tags": [
+        "Chat",
+        "Writing",
+        "Coding"
+      ],
+      "pricing": "Freemium",
+      "featured": true,
+      "descriptionEn": "AI chat assistant by OpenAI for writing, coding, and analysis",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "4.5",
+      "users": "5M+"
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "description": "AI 图像生成工具，通过文字描述创建精美图片",
+      "url": "https://midjourney.com",
+      "category": "image",
+      "tags": [
+        "Image Generation",
+        "Art",
+        "Design"
+      ],
+      "pricing": "Paid",
+      "featured": true,
+      "descriptionEn": "AI image generation tool that creates images from text descriptions",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "4.4",
+      "users": "50K+"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "description": "Anthropic 开发的 AI 助手，擅长长文本处理和推理",
+      "url": "https://claude.ai",
+      "category": "chat",
+      "tags": [
+        "Chat",
+        "Writing",
+        "Analysis"
+      ],
+      "pricing": "Freemium",
+      "featured": true,
+      "descriptionEn": "AI assistant by Anthropic, excels at long-text processing and reasoning",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "4.5",
+      "users": "5M+"
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "description": "AI 视频编辑和生成平台，支持文生视频、视频风格转换等",
+      "url": "https://runwayml.com",
+      "category": "video",
+      "tags": [
+        "Video Generation",
+        "Video Editing",
+        "VFX"
+      ],
+      "pricing": "Freemium",
+      "featured": true,
+      "descriptionEn": "AI video editing and generation platform with text-to-video capabilities",
+      "useCases": [
+        "Content Creation",
+        "Marketing Videos",
+        "Tutorials",
+        "Social Media",
+        "Presentations"
+      ],
+      "alternatives": [],
+      "rating": "4.7",
+      "users": "1M+"
+    },
+    {
+      "id": "notion-ai",
+      "name": "Notion AI",
+      "description": "Notion 内置的 AI 助手，帮助写作、总结、翻译等",
+      "url": "https://notion.so",
+      "category": "productivity",
+      "tags": [
+        "Notes",
+        "Writing",
+        "Office"
+      ],
+      "pricing": "Paid",
+      "featured": false,
+      "descriptionEn": "Built-in AI assistant in Notion for writing, summarizing, and translating",
+      "useCases": [
+        "Note Taking",
+        "Project Management",
+        "Documentation",
+        "Team Collaboration",
+        "Task Automation"
+      ],
+      "alternatives": [],
+      "rating": "3.6",
+      "users": "500K+"
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "description": "AI 编程助手，自动补全代码、生成函数等",
+      "url": "https://github.com/features/copilot",
+      "category": "code",
+      "tags": [
+        "Coding",
+        "代码补全",
+        "开发"
+      ],
+      "pricing": "Paid",
+      "featured": true,
+      "descriptionEn": "AI coding assistant for code completion and generation",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "4.6",
+      "users": "10M+"
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "description": "AI 语音生成平台，创建逼真的语音和声音克隆",
+      "url": "https://elevenlabs.io",
+      "category": "audio",
+      "tags": [
+        "语音合成",
+        "声音克隆",
+        "TTS"
+      ],
+      "pricing": "Freemium",
+      "featured": true,
+      "descriptionEn": "AI voice generation platform for realistic speech synthesis and cloning",
+      "useCases": [
+        "Podcasting",
+        "Voiceovers",
+        "Music Production",
+        "Audiobooks",
+        "Sound Design"
+      ],
+      "alternatives": [],
+      "rating": "4.5",
+      "users": "5M+"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "description": "AI 原生代码编辑器，内置 AI 助手辅助编程",
+      "url": "https://cursor.sh",
+      "category": "code",
+      "tags": [
+        "编辑器",
+        "Coding",
+        "AI 辅助"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] AI 原生代码编辑器，内置 AI 助手辅助编程",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "4.0",
+      "users": "1M+"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "description": "AI 搜索引擎，提供带引用的答案",
+      "url": "https://perplexity.ai",
+      "category": "chat",
+      "tags": [
+        "搜索",
+        "问答",
+        "Research"
+      ],
+      "pricing": "Freemium",
+      "featured": true,
+      "descriptionEn": "AI-powered search engine that provides cited answers",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "4.7",
+      "users": "100K+"
+    },
+    {
+      "id": "canva-ai",
+      "name": "Canva AI",
+      "description": "Canva 的 AI 设计功能，一键生成设计、移除背景等",
+      "url": "https://canva.com",
+      "category": "image",
+      "tags": [
+        "Design",
+        "图像处理",
+        "模板"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] Canva 的 AI 设计功能，一键生成设计、移除背景等",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "3.9",
+      "users": "1M+"
+    },
+    {
+      "id": "inkos",
+      "name": "InkOS",
+      "description": "自动化小说写作 CLI 工具，多 Agent 协作完成写作全流程",
+      "url": "https://github.com/visense/inkos",
+      "category": "writing",
+      "tags": [
+        "小说写作",
+        "AI 写作",
+        "长文本"
+      ],
+      "pricing": "Open Source",
+      "featured": true,
+      "descriptionEn": "[Chinese] 自动化小说写作 CLI 工具，多 Agent 协作完成写作全流程",
+      "useCases": [
+        "Blog Writing",
+        "Copywriting",
+        "Email Writing",
+        "Content Creation",
+        "SEO Writing"
+      ],
+      "alternatives": [],
+      "rating": "4.5",
+      "users": "100K+"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "description": "深度求索开发的 AI 模型，性价比高，支持多种任务",
+      "url": "https://deepseek.com",
+      "category": "chat",
+      "tags": [
+        "Chat",
+        "Coding",
+        "性价比高"
+      ],
+      "pricing": "Freemium",
+      "featured": true,
+      "descriptionEn": "[Chinese] 深度求索开发的 AI 模型，性价比高，支持多种任务",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "4.7",
+      "users": "10K+"
+    },
+    {
+      "id": "stable-diffusion",
+      "name": "Stable Diffusion",
+      "description": "开源 AI 图像生成模型，可本地部署，生成高质量图片",
+      "url": "https://stability.ai",
+      "category": "image",
+      "tags": [
+        "Image Generation",
+        "开源",
+        "本地部署"
+      ],
+      "pricing": "Freemium",
+      "featured": true,
+      "descriptionEn": "Open-source AI image generation model with local deployment support",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "4.4",
+      "users": "5M+"
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "description": "Google 开发的多模态 AI 模型，支持文本、图像、代码等多种任务",
+      "url": "https://gemini.google.com",
+      "category": "chat",
+      "tags": [
+        "Chat",
+        "多模态",
+        "Google"
+      ],
+      "pricing": "Freemium",
+      "featured": true,
+      "descriptionEn": "Multimodal AI model by Google supporting text, images, and code",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "4.5",
+      "users": "100K+"
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "description": "AI 视频生成平台，创建虚拟主播视频，无需摄像设备",
+      "url": "https://synthesia.io",
+      "category": "video",
+      "tags": [
+        "Video Generation",
+        "虚拟主播",
+        "Enterprise"
+      ],
+      "pricing": "Paid",
+      "featured": true,
+      "descriptionEn": "AI video generation platform for creating videos with virtual avatars",
+      "useCases": [
+        "Content Creation",
+        "Marketing Videos",
+        "Tutorials",
+        "Social Media",
+        "Presentations"
+      ],
+      "alternatives": [],
+      "rating": "4.5",
+      "users": "500K+"
+    },
+    {
+      "id": "jasper",
+      "name": "Jasper",
+      "description": "AI 营销文案写作工具，专为营销团队设计",
+      "url": "https://jasper.ai",
+      "category": "writing",
+      "tags": [
+        "营销文案",
+        "Writing",
+        "Enterprise"
+      ],
+      "pricing": "Paid",
+      "featured": false,
+      "descriptionEn": "AI marketing copywriting tool designed for marketing teams",
+      "useCases": [
+        "Blog Writing",
+        "Copywriting",
+        "Email Writing",
+        "Content Creation",
+        "SEO Writing"
+      ],
+      "alternatives": [],
+      "rating": "3.7",
+      "users": "10K+"
+    },
+    {
+      "id": "copy-ai",
+      "name": "Copy.ai",
+      "description": "AI 文案生成工具，快速创建营销内容和社交媒体帖子",
+      "url": "https://copy.ai",
+      "category": "writing",
+      "tags": [
+        "Copywriting",
+        "Marketing",
+        "Social Media"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "AI copywriting tool for creating marketing content and social media posts",
+      "useCases": [
+        "Blog Writing",
+        "Copywriting",
+        "Email Writing",
+        "Content Creation",
+        "SEO Writing"
+      ],
+      "alternatives": [],
+      "rating": "4.3",
+      "users": "500K+"
+    },
+    {
+      "id": "descript",
+      "name": "Descript",
+      "description": "AI 视频和音频编辑工具，像编辑文档一样编辑媒体",
+      "url": "https://descript.com",
+      "category": "video",
+      "tags": [
+        "Video Editing",
+        "音频编辑",
+        "转录"
+      ],
+      "pricing": "Freemium",
+      "featured": true,
+      "descriptionEn": "AI video and audio editing tool with transcript-based editing",
+      "useCases": [
+        "Content Creation",
+        "Marketing Videos",
+        "Tutorials",
+        "Social Media",
+        "Presentations"
+      ],
+      "alternatives": [],
+      "rating": "4.3",
+      "users": "50K+"
+    },
+    {
+      "id": "otter",
+      "name": "Otter.ai",
+      "description": "AI 语音转文字工具，实时转录会议和访谈",
+      "url": "https://otter.ai",
+      "category": "audio",
+      "tags": [
+        "语音转文字",
+        "Meeting",
+        "转录"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "AI speech-to-text tool for real-time meeting and interview transcription",
+      "useCases": [
+        "Podcasting",
+        "Voiceovers",
+        "Music Production",
+        "Audiobooks",
+        "Sound Design"
+      ],
+      "alternatives": [],
+      "rating": "4.5",
+      "users": "50K+"
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "description": "在线编程 IDE，内置 AI 助手辅助编程学习",
+      "url": "https://replit.com",
+      "category": "code",
+      "tags": [
+        "在线 IDE",
+        "编程学习",
+        "Collaboration"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "Online coding IDE with built-in AI assistant for programming learning",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "4.5",
+      "users": "50K+"
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "description": "AI 模型社区平台，提供数千个预训练模型",
+      "url": "https://huggingface.co",
+      "category": "code",
+      "tags": [
+        "AI 模型",
+        "开源",
+        "社区"
+      ],
+      "pricing": "Freemium",
+      "featured": true,
+      "descriptionEn": "AI model community platform with thousands of pre-trained models",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "4.4",
+      "users": "50K+"
+    },
+    {
+      "id": "lexica",
+      "name": "Lexica",
+      "description": "AI 艺术搜索引擎和图像生成工具",
+      "url": "https://lexica.art",
+      "category": "image",
+      "tags": [
+        "Image Generation",
+        "Art",
+        "搜索"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "AI art search engine and image generation tool",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "4.3",
+      "users": "5M+"
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "description": "全能工作空间，支持笔记、数据库、任务管理等",
+      "url": "https://notion.so",
+      "category": "productivity",
+      "tags": [
+        "Notes",
+        "Database",
+        "Collaboration"
+      ],
+      "pricing": "Freemium",
+      "featured": true,
+      "descriptionEn": "All-in-one workspace for notes, databases, and task management",
+      "useCases": [
+        "Note Taking",
+        "Project Management",
+        "Documentation",
+        "Team Collaboration",
+        "Task Automation"
+      ],
+      "alternatives": [],
+      "rating": "4.4",
+      "users": "5M+"
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "description": "自动化工具，连接 5000+ 应用实现工作流自动化",
+      "url": "https://zapier.com",
+      "category": "productivity",
+      "tags": [
+        "Automation",
+        "工作流",
+        "集成"
+      ],
+      "pricing": "Freemium",
+      "featured": true,
+      "descriptionEn": "Automation tool connecting 5000+ apps for workflow automation",
+      "useCases": [
+        "Note Taking",
+        "Project Management",
+        "Documentation",
+        "Team Collaboration",
+        "Task Automation"
+      ],
+      "alternatives": [],
+      "rating": "4.5",
+      "users": "10M+"
+    },
+    {
+      "id": "coursera",
+      "name": "Coursera",
+      "description": "在线教育平台，提供 AI 和机器学习课程",
+      "url": "https://coursera.org",
+      "category": "education",
+      "tags": [
+        "在线教育",
+        "课程",
+        "证书"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "Online education platform offering AI and machine learning courses",
+      "useCases": [
+        "Online Courses",
+        "Tutoring",
+        "Skill Development",
+        "Language Learning",
+        "Test Prep"
+      ],
+      "alternatives": [],
+      "rating": "3.6",
+      "users": "100K+"
+    },
+    {
+      "id": "khan-academy",
+      "name": "Khan Academy",
+      "description": "免费教育平台，Khanmigo AI 助手辅助学习",
+      "url": "https://khanacademy.org",
+      "category": "education",
+      "tags": [
+        "免费教育",
+        "K12",
+        "AI 辅导"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "descriptionEn": "Free education platform with AI tutor Khanmigo",
+      "useCases": [
+        "Online Courses",
+        "Tutoring",
+        "Skill Development",
+        "Language Learning",
+        "Test Prep"
+      ],
+      "alternatives": [],
+      "rating": "3.8",
+      "users": "100K+"
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "description": "AI 写作助手，检查语法、拼写和写作风格",
+      "url": "https://grammarly.com",
+      "category": "writing",
+      "tags": [
+        "语法检查",
+        "写作助手",
+        "英语"
+      ],
+      "pricing": "Freemium",
+      "featured": true,
+      "descriptionEn": "AI writing assistant for grammar, spelling, and style checking",
+      "useCases": [
+        "Blog Writing",
+        "Copywriting",
+        "Email Writing",
+        "Content Creation",
+        "SEO Writing"
+      ],
+      "alternatives": [],
+      "rating": "4.7",
+      "users": "500K+"
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "description": "xAI 开发的 AI 助手，集成在 X 平台，实时获取最新资讯",
+      "url": "https://x.ai",
+      "category": "chat",
+      "tags": [
+        "Chat",
+        "实时资讯",
+        "X 平台"
+      ],
+      "pricing": "Paid",
+      "featured": false,
+      "descriptionEn": "[Chinese] xAI 开发的 AI 助手，集成在 X 平台，实时获取最新资讯",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "4.3",
+      "users": "10M+"
+    },
+    {
+      "id": "coze",
+      "name": "Coze",
+      "description": "字节跳动推出的 AI 应用开发平台，可创建自定义 AI 机器人",
+      "url": "https://coze.com",
+      "category": "code",
+      "tags": [
+        "AI 应用开发",
+        "低代码",
+        "机器人"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "descriptionEn": "[Chinese] 字节跳动推出的 AI 应用开发平台，可创建自定义 AI 机器人",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "3.8",
+      "users": "5M+"
+    },
+    {
+      "id": "dify",
+      "name": "Dify",
+      "description": "开源的 LLM 应用开发平台，支持可视化编排和部署",
+      "url": "https://dify.ai",
+      "category": "code",
+      "tags": [
+        "LLM 开发",
+        "开源",
+        "Visualization"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] 开源的 LLM 应用开发平台，支持可视化编排和部署",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "3.9",
+      "users": "50K+"
+    },
+    {
+      "id": "poe",
+      "name": "Poe",
+      "description": "Quora 推出的多模型 AI 聊天平台，一站式访问多个 AI 模型",
+      "url": "https://poe.com",
+      "category": "chat",
+      "tags": [
+        "多模型",
+        "Chat",
+        "聚合平台"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] Quora 推出的多模型 AI 聊天平台，一站式访问多个 AI 模型",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "4.0",
+      "users": "10M+"
+    },
+    {
+      "id": "character-ai",
+      "name": "Character.AI",
+      "description": "创建和对话虚拟角色的 AI 平台，支持自定义角色性格",
+      "url": "https://character.ai",
+      "category": "chat",
+      "tags": [
+        "虚拟角色",
+        "Chat",
+        "Entertainment"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] 创建和对话虚拟角色的 AI 平台，支持自定义角色性格",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "3.5",
+      "users": "50K+"
+    },
+    {
+      "id": "leonardo",
+      "name": "Leonardo.AI",
+      "description": "专业 AI 图像生成平台，支持游戏资产、概念艺术等",
+      "url": "https://leonardo.ai",
+      "category": "image",
+      "tags": [
+        "Image Generation",
+        "游戏资产",
+        "概念艺术"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] 专业 AI 图像生成平台，支持游戏资产、概念艺术等",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "3.6",
+      "users": "100K+"
+    },
+    {
+      "id": "flux",
+      "name": "Flux",
+      "description": "Black Forest Labs 开发的开源图像生成模型，高质量输出",
+      "url": "https://blackforestlabs.ai",
+      "category": "image",
+      "tags": [
+        "Image Generation",
+        "开源",
+        "高质量"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] Black Forest Labs 开发的开源图像生成模型，高质量输出",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "3.6",
+      "users": "50K+"
+    },
+    {
+      "id": "ideogram",
+      "name": "Ideogram",
+      "description": "擅长生成带文字的 AI 图像，适合海报、Logo 设计",
+      "url": "https://ideogram.ai",
+      "category": "image",
+      "tags": [
+        "Image Generation",
+        "文字渲染",
+        "Design"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] 擅长生成带文字的 AI 图像，适合海报、Logo 设计",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "3.7",
+      "users": "100K+"
+    },
+    {
+      "id": "pika",
+      "name": "Pika Labs",
+      "description": "AI 视频生成工具，支持文生视频和视频编辑",
+      "url": "https://pika.art",
+      "category": "video",
+      "tags": [
+        "Video Generation",
+        "文生视频",
+        "Animation"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] AI 视频生成工具，支持文生视频和视频编辑",
+      "useCases": [
+        "Content Creation",
+        "Marketing Videos",
+        "Tutorials",
+        "Social Media",
+        "Presentations"
+      ],
+      "alternatives": [],
+      "rating": "3.7",
+      "users": "10M+"
+    },
+    {
+      "id": "luma",
+      "name": "Luma Dream Machine",
+      "description": "Luma AI 推出的高质量视频生成模型",
+      "url": "https://lumalabs.ai",
+      "category": "video",
+      "tags": [
+        "Video Generation",
+        "高质量",
+        "AI 模型"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] Luma AI 推出的高质量视频生成模型",
+      "useCases": [
+        "Content Creation",
+        "Marketing Videos",
+        "Tutorials",
+        "Social Media",
+        "Presentations"
+      ],
+      "alternatives": [],
+      "rating": "3.6",
+      "users": "5M+"
+    },
+    {
+      "id": "heygen",
+      "name": "HeyGen",
+      "description": "AI 数字人视频生成平台，支持多语言和口型同步",
+      "url": "https://heygen.com",
+      "category": "video",
+      "tags": [
+        "数字人",
+        "Video Generation",
+        "多语言"
+      ],
+      "pricing": "Paid",
+      "featured": false,
+      "descriptionEn": "[Chinese] AI 数字人视频生成平台，支持多语言和口型同步",
+      "useCases": [
+        "Content Creation",
+        "Marketing Videos",
+        "Tutorials",
+        "Social Media",
+        "Presentations"
+      ],
+      "alternatives": [],
+      "rating": "4.4",
+      "users": "100K+"
+    },
+    {
+      "id": "suno",
+      "name": "Suno AI",
+      "description": "AI 音乐生成工具，创建完整歌曲包括歌词和演唱",
+      "url": "https://suno.com",
+      "category": "audio",
+      "tags": [
+        "音乐生成",
+        "歌曲创作",
+        "AI 音乐"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] AI 音乐生成工具，创建完整歌曲包括歌词和演唱",
+      "useCases": [
+        "Podcasting",
+        "Voiceovers",
+        "Music Production",
+        "Audiobooks",
+        "Sound Design"
+      ],
+      "alternatives": [],
+      "rating": "3.8",
+      "users": "500K+"
+    },
+    {
+      "id": "udio",
+      "name": "Udio",
+      "description": "高质量 AI 音乐生成平台，专业级音乐创作",
+      "url": "https://udio.com",
+      "category": "audio",
+      "tags": [
+        "音乐生成",
+        "专业级",
+        "歌曲创作"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] 高质量 AI 音乐生成平台，专业级音乐创作",
+      "useCases": [
+        "Podcasting",
+        "Voiceovers",
+        "Music Production",
+        "Audiobooks",
+        "Sound Design"
+      ],
+      "alternatives": [],
+      "rating": "4.4",
+      "users": "10M+"
+    },
+    {
+      "id": "adobe-podcast",
+      "name": "Adobe Podcast",
+      "description": "Adobe 的 AI 音频增强工具，提升录音质量",
+      "url": "https://podcast.adobe.com",
+      "category": "audio",
+      "tags": [
+        "音频增强",
+        "降噪",
+        "Podcast"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] Adobe 的 AI 音频增强工具，提升录音质量",
+      "useCases": [
+        "Podcasting",
+        "Voiceovers",
+        "Music Production",
+        "Audiobooks",
+        "Sound Design"
+      ],
+      "alternatives": [],
+      "rating": "3.7",
+      "users": "1M+"
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf",
+      "description": "Codeium 推出的 AI 原生代码编辑器，深度集成 AI 辅助",
+      "url": "https://windsurf.ai",
+      "category": "code",
+      "tags": [
+        "代码编辑器",
+        "AI 辅助",
+        "开发"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] Codeium 推出的 AI 原生代码编辑器，深度集成 AI 辅助",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "3.8",
+      "users": "100K+"
+    },
+    {
+      "id": "v0",
+      "name": "v0.dev",
+      "description": "Vercel 推出的 AI 前端代码生成工具",
+      "url": "https://v0.dev",
+      "category": "code",
+      "tags": [
+        "前端生成",
+        "React",
+        "UI 组件"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] Vercel 推出的 AI 前端代码生成工具",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "3.7",
+      "users": "50K+"
+    },
+    {
+      "id": "bolt",
+      "name": "Bolt.new",
+      "description": "StackBlitz 推出的 AI 全栈应用开发工具",
+      "url": "https://bolt.new",
+      "category": "code",
+      "tags": [
+        "全栈开发",
+        "AI 编程",
+        "快速原型"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] StackBlitz 推出的 AI 全栈应用开发工具",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "3.6",
+      "users": "50K+"
+    },
+    {
+      "id": "notebooklm",
+      "name": "NotebookLM",
+      "description": "Google 推出的 AI 笔记工具，基于文档进行智能问答",
+      "url": "https://notebooklm.google.com",
+      "category": "productivity",
+      "tags": [
+        "智能笔记",
+        "文档分析",
+        "Research"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "descriptionEn": "[Chinese] Google 推出的 AI 笔记工具，基于文档进行智能问答",
+      "useCases": [
+        "Note Taking",
+        "Project Management",
+        "Documentation",
+        "Team Collaboration",
+        "Task Automation"
+      ],
+      "alternatives": [],
+      "rating": "3.6",
+      "users": "10M+"
+    },
+    {
+      "id": "mem",
+      "name": "Mem",
+      "description": "AI 驱动的智能笔记应用，自动组织和关联内容",
+      "url": "https://mem.ai",
+      "category": "productivity",
+      "tags": [
+        "智能笔记",
+        "知识管理",
+        "自动组织"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] AI 驱动的智能笔记应用，自动组织和关联内容",
+      "useCases": [
+        "Note Taking",
+        "Project Management",
+        "Documentation",
+        "Team Collaboration",
+        "Task Automation"
+      ],
+      "alternatives": [],
+      "rating": "3.8",
+      "users": "50K+"
+    },
+    {
+      "id": "tome",
+      "name": "Tome",
+      "description": "AI 演示文稿生成工具，快速创建精美 PPT",
+      "url": "https://tome.app",
+      "category": "productivity",
+      "tags": [
+        "PPT 生成",
+        "演示文稿",
+        "Design"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] AI 演示文稿生成工具，快速创建精美 PPT",
+      "useCases": [
+        "Note Taking",
+        "Project Management",
+        "Documentation",
+        "Team Collaboration",
+        "Task Automation"
+      ],
+      "alternatives": [],
+      "rating": "4.4",
+      "users": "500K+"
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "description": "AI 演示和文档创建工具，一键生成专业内容",
+      "url": "https://gamma.app",
+      "category": "productivity",
+      "tags": [
+        "演示文稿",
+        "文档生成",
+        "Design"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] AI 演示和文档创建工具，一键生成专业内容",
+      "useCases": [
+        "Note Taking",
+        "Project Management",
+        "Documentation",
+        "Team Collaboration",
+        "Task Automation"
+      ],
+      "alternatives": [],
+      "rating": "3.8",
+      "users": "10K+"
+    },
+    {
+      "id": "beautiful-ai",
+      "name": "Beautiful.ai",
+      "description": "智能 PPT 设计工具，自动调整布局和样式",
+      "url": "https://beautiful.ai",
+      "category": "productivity",
+      "tags": [
+        "PPT 设计",
+        "自动布局",
+        "Presentation"
+      ],
+      "pricing": "Paid",
+      "featured": false,
+      "descriptionEn": "[Chinese] 智能 PPT 设计工具，自动调整布局和样式",
+      "useCases": [
+        "Note Taking",
+        "Project Management",
+        "Documentation",
+        "Team Collaboration",
+        "Task Automation"
+      ],
+      "alternatives": [],
+      "rating": "4.5",
+      "users": "10K+"
+    },
+    {
+      "id": "anthropic-console",
+      "name": "Anthropic Console",
+      "description": "Anthropic 官方开发者平台，管理和调用 Claude API",
+      "url": "https://console.anthropic.com",
+      "category": "code",
+      "tags": [
+        "API 管理",
+        "开发者工具",
+        "Claude"
+      ],
+      "pricing": "按量付费",
+      "featured": false,
+      "descriptionEn": "[Chinese] Anthropic 官方开发者平台，管理和调用 Claude API",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "4.4",
+      "users": "10K+"
+    },
+    {
+      "id": "openai-platform",
+      "name": "OpenAI Platform",
+      "description": "OpenAI 官方开发者平台，访问 GPT 等模型 API",
+      "url": "https://platform.openai.com",
+      "category": "code",
+      "tags": [
+        "API 管理",
+        "开发者工具",
+        "GPT"
+      ],
+      "pricing": "按量付费",
+      "featured": false,
+      "descriptionEn": "[Chinese] OpenAI 官方开发者平台，访问 GPT 等模型 API",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "4.0",
+      "users": "100K+"
+    },
+    {
+      "id": "civitai",
+      "name": "Civitai",
+      "description": "Stable Diffusion 模型和资源分享社区",
+      "url": "https://civitai.com",
+      "category": "image",
+      "tags": [
+        "SD 模型",
+        "资源分享",
+        "社区"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "descriptionEn": "[Chinese] Stable Diffusion 模型和资源分享社区",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "4.1",
+      "users": "10M+"
+    },
+    {
+      "id": "tensor-art",
+      "name": "Tensor.Art",
+      "description": "在线 AI 图像生成平台，提供免费 SD 模型运行",
+      "url": "https://tensor.art",
+      "category": "image",
+      "tags": [
+        "Image Generation",
+        "在线运行",
+        "免费"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] 在线 AI 图像生成平台，提供免费 SD 模型运行",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "4.4",
+      "users": "100K+"
+    },
+    {
+      "id": "seaart",
+      "name": "SeaArt",
+      "description": "多功能 AI 艺术创作平台，支持图像生成和编辑",
+      "url": "https://seaart.ai",
+      "category": "image",
+      "tags": [
+        "艺术创作",
+        "图像编辑",
+        "AI 工具"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] 多功能 AI 艺术创作平台，支持图像生成和编辑",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "4.3",
+      "users": "1M+"
+    },
+    {
+      "id": "clipdrop",
+      "name": "Clipdrop",
+      "description": "Stability AI 推出的图像编辑工具集",
+      "url": "https://clipdrop.co",
+      "category": "image",
+      "tags": [
+        "图像编辑",
+        "背景移除",
+        "工具集"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] Stability AI 推出的图像编辑工具集",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "4.1",
+      "users": "10K+"
+    },
+    {
+      "id": "remove-bg",
+      "name": "Remove.bg",
+      "description": "AI 一键抠图工具，自动移除图片背景",
+      "url": "https://remove.bg",
+      "category": "image",
+      "tags": [
+        "抠图",
+        "背景移除",
+        "图像处理"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] AI 一键抠图工具，自动移除图片背景",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "3.8",
+      "users": "10K+"
+    },
+    {
+      "id": "magnific",
+      "name": "Magnific AI",
+      "description": "AI 图像超分辨率工具，放大图片同时增强细节",
+      "url": "https://magnific.ai",
+      "category": "image",
+      "tags": [
+        "超分辨率",
+        "图片放大",
+        "细节增强"
+      ],
+      "pricing": "Paid",
+      "featured": false,
+      "descriptionEn": "[Chinese] AI 图像超分辨率工具，放大图片同时增强细节",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "3.9",
+      "users": "50K+"
+    },
+    {
+      "id": "topaz",
+      "name": "Topaz Labs",
+      "description": "专业 AI 图像和视频增强软件套装",
+      "url": "https://topazlabs.com",
+      "category": "image",
+      "tags": [
+        "图像增强",
+        "视频增强",
+        "专业软件"
+      ],
+      "pricing": "Paid",
+      "featured": false,
+      "descriptionEn": "[Chinese] 专业 AI 图像和视频增强软件套装",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "4.0",
+      "users": "5M+"
+    },
+    {
+      "id": "kapwing",
+      "name": "Kapwing",
+      "description": "在线视频编辑工具，集成多种 AI 功能",
+      "url": "https://kapwing.com",
+      "category": "video",
+      "tags": [
+        "Video Editing",
+        "在线工具",
+        "AI 功能"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] 在线视频编辑工具，集成多种 AI 功能",
+      "useCases": [
+        "Content Creation",
+        "Marketing Videos",
+        "Tutorials",
+        "Social Media",
+        "Presentations"
+      ],
+      "alternatives": [],
+      "rating": "3.7",
+      "users": "10K+"
+    },
+    {
+      "id": "invideo",
+      "name": "InVideo",
+      "description": "AI 视频制作平台，文生视频和模板编辑",
+      "url": "https://invideo.io",
+      "category": "video",
+      "tags": [
+        "视频制作",
+        "模板",
+        "文生视频"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] AI 视频制作平台，文生视频和模板编辑",
+      "useCases": [
+        "Content Creation",
+        "Marketing Videos",
+        "Tutorials",
+        "Social Media",
+        "Presentations"
+      ],
+      "alternatives": [],
+      "rating": "4.2",
+      "users": "50K+"
+    },
+    {
+      "id": "fliki",
+      "name": "Fliki",
+      "description": "AI 视频生成工具，将文本转为带配音的视频",
+      "url": "https://fliki.ai",
+      "category": "video",
+      "tags": [
+        "文生视频",
+        "配音",
+        "Content Creation"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] AI 视频生成工具，将文本转为带配音的视频",
+      "useCases": [
+        "Content Creation",
+        "Marketing Videos",
+        "Tutorials",
+        "Social Media",
+        "Presentations"
+      ],
+      "alternatives": [],
+      "rating": "4.3",
+      "users": "50K+"
+    },
+    {
+      "id": "murf",
+      "name": "Murf AI",
+      "description": "专业 AI 语音合成平台，多种语言和音色",
+      "url": "https://murf.ai",
+      "category": "audio",
+      "tags": [
+        "语音合成",
+        "多语言",
+        "专业配音"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] 专业 AI 语音合成平台，多种语言和音色",
+      "useCases": [
+        "Podcasting",
+        "Voiceovers",
+        "Music Production",
+        "Audiobooks",
+        "Sound Design"
+      ],
+      "alternatives": [],
+      "rating": "3.6",
+      "users": "100K+"
+    },
+    {
+      "id": "play-ht",
+      "name": "Play.ht",
+      "description": "AI 语音生成平台，支持克隆和多种音色",
+      "url": "https://play.ht",
+      "category": "audio",
+      "tags": [
+        "语音生成",
+        "声音克隆",
+        "Podcast"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "AI voice generation platform for realistic speech synthesis and cloning",
+      "useCases": [
+        "Podcasting",
+        "Voiceovers",
+        "Music Production",
+        "Audiobooks",
+        "Sound Design"
+      ],
+      "alternatives": [],
+      "rating": "3.8",
+      "users": "100K+"
+    },
+    {
+      "id": "voiceful",
+      "name": "Voiceful",
+      "description": "AI 语音合成工具，创建自然的人声",
+      "url": "https://voiceful.io",
+      "category": "audio",
+      "tags": [
+        "语音合成",
+        "人声",
+        "Content Creation"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] AI 语音合成工具，创建自然的人声",
+      "useCases": [
+        "Podcasting",
+        "Voiceovers",
+        "Music Production",
+        "Audiobooks",
+        "Sound Design"
+      ],
+      "alternatives": [],
+      "rating": "4.0",
+      "users": "50K+"
+    },
+    {
+      "id": "codeium",
+      "name": "Codeium",
+      "description": "免费 AI 编程助手，支持多种 IDE 和编程语言",
+      "url": "https://codeium.com",
+      "category": "code",
+      "tags": [
+        "编程助手",
+        "免费",
+        "多语言"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "AI coding assistant for code completion and generation",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "4.2",
+      "users": "100K+"
+    },
+    {
+      "id": "tabnine",
+      "name": "Tabnine",
+      "description": "AI 代码补全工具，支持本地模型保护隐私",
+      "url": "https://tabnine.com",
+      "category": "code",
+      "tags": [
+        "代码补全",
+        "隐私保护",
+        "本地模型"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] AI 代码补全工具，支持本地模型保护隐私",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "4.4",
+      "users": "100K+"
+    },
+    {
+      "id": "sourcegraph",
+      "name": "Sourcegraph Cody",
+      "description": "AI 代码助手，深度理解整个代码库",
+      "url": "https://sourcegraph.com/cody",
+      "category": "code",
+      "tags": [
+        "代码理解",
+        "代码库分析",
+        "AI 助手"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] AI 代码助手，深度理解整个代码库",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "4.5",
+      "users": "100K+"
+    },
+    {
+      "id": "figma-ai",
+      "name": "Figma AI",
+      "description": "Figma 内置的 AI 设计功能，辅助 UI/UX 设计",
+      "url": "https://figma.com",
+      "category": "image",
+      "tags": [
+        "UI 设计",
+        "UX 设计",
+        "Collaboration"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] Figma 内置的 AI 设计功能，辅助 UI/UX 设计",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "4.1",
+      "users": "100K+"
+    },
+    {
+      "id": "magician",
+      "name": "Magician",
+      "description": "Figma AI 插件，生成图标、文案和设计元素",
+      "url": "https://magician.design",
+      "category": "image",
+      "tags": [
+        "Figma 插件",
+        "设计生成",
+        "图标"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] Figma AI 插件，生成图标、文案和设计元素",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "3.7",
+      "users": "5M+"
+    },
+    {
+      "id": "relume",
+      "name": "Relume",
+      "description": "AI 网站规划和原型设计工具",
+      "url": "https://relume.io",
+      "category": "code",
+      "tags": [
+        "网站规划",
+        "原型设计",
+        "sitemap"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] AI 网站规划和原型设计工具",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "4.0",
+      "users": "100K+"
+    },
+    {
+      "id": "framer-ai",
+      "name": "Framer AI",
+      "description": "AI 网站构建工具，文生网站和落地页",
+      "url": "https://framer.com",
+      "category": "code",
+      "tags": [
+        "网站构建",
+        "落地页",
+        "无代码"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] AI 网站构建工具，文生网站和落地页",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "4.2",
+      "users": "5M+"
+    },
+    {
+      "id": "dora",
+      "name": "Dora",
+      "description": "AI 3D 网站构建平台，创建交互式 3D 网页",
+      "url": "https://dora.run",
+      "category": "code",
+      "tags": [
+        "3D 网站",
+        "交互式",
+        "无代码"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "descriptionEn": "[Chinese] AI 3D 网站构建平台，创建交互式 3D 网页",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "3.8",
+      "users": "1M+"
+    },
+    {
+      "id": "wepik",
+      "name": "Wepik",
+      "description": "Freepik 推出的在线设计工具，集成 AI 功能",
+      "url": "https://wepik.com",
+      "category": "image",
+      "tags": [
+        "在线设计",
+        "模板",
+        "AI 生成"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "descriptionEn": "[Chinese] Freepik 推出的在线设计工具，集成 AI 功能",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "4.2",
+      "users": "5M+"
+    },
+    {
+      "id": "looka",
+      "name": "Looka",
+      "description": "AI Logo 设计工具，自动生成品牌标识",
+      "url": "https://looka.com",
+      "category": "image",
+      "tags": [
+        "Logo 设计",
+        "Branding",
+        "自动生成"
+      ],
+      "pricing": "Paid",
+      "featured": false,
+      "descriptionEn": "[Chinese] AI Logo 设计工具，自动生成品牌标识",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "4.5",
+      "users": "5M+"
+    },
+    {
+      "id": "brandmark",
+      "name": "Brandmark",
+      "description": "AI 品牌设计工具，生成 Logo 和视觉识别系统",
+      "url": "https://brandmark.io",
+      "category": "image",
+      "tags": [
+        "品牌设计",
+        "Logo",
+        "VI 系统"
+      ],
+      "pricing": "Paid",
+      "featured": false,
+      "descriptionEn": "[Chinese] AI 品牌设计工具，生成 Logo 和视觉识别系统",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "3.7",
+      "users": "500K+"
+    },
+    {
+      "id": "udemy",
+      "name": "Udemy",
+      "description": "在线教育平台，提供大量 AI 和编程课程",
+      "url": "https://udemy.com",
+      "category": "education",
+      "tags": [
+        "在线课程",
+        "技能培训",
+        "证书"
+      ],
+      "pricing": "Paid",
+      "featured": false,
+      "descriptionEn": "Online education platform offering AI and machine learning courses",
+      "useCases": [
+        "Online Courses",
+        "Tutoring",
+        "Skill Development",
+        "Language Learning",
+        "Test Prep"
+      ],
+      "alternatives": [],
+      "rating": "3.8",
+      "users": "50K+"
+    },
+    {
+      "id": "datacamp",
+      "name": "DataCamp",
+      "description": "数据科学和 AI 学习平台，交互式编程学习",
+      "url": "https://datacamp.com",
+      "category": "education",
+      "tags": [
+        "数据科学",
+        "编程学习",
+        "交互式"
+      ],
+      "pricing": "Paid",
+      "featured": false,
+      "descriptionEn": "[Chinese] 数据科学和 AI 学习平台，交互式编程学习",
+      "useCases": [
+        "Online Courses",
+        "Tutoring",
+        "Skill Development",
+        "Language Learning",
+        "Test Prep"
+      ],
+      "alternatives": [],
+      "rating": "4.4",
+      "users": "5M+"
+    },
+    {
+      "id": "brilliant",
+      "name": "Brilliant",
+      "description": "互动学习平台，培养数学、科学和技术思维",
+      "url": "https://brilliant.org",
+      "category": "education",
+      "tags": [
+        "互动学习",
+        "数学",
+        "科学"
+      ],
+      "pricing": "Paid",
+      "featured": false,
+      "descriptionEn": "[Chinese] 互动学习平台，培养数学、科学和技术思维",
+      "useCases": [
+        "Online Courses",
+        "Tutoring",
+        "Skill Development",
+        "Language Learning",
+        "Test Prep"
+      ],
+      "alternatives": [],
+      "rating": "4.0",
+      "users": "5M+"
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "url": "https://github.com/ollama/ollama",
+      "category": "chat",
+      "tags": [
+        "GitHub",
+        "开源",
+        "llm",
+        "热门"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-07",
+      "githubStars": 167705,
+      "descriptionEn": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "3.6",
+      "users": "100K+"
+    },
+    {
+      "id": "chathub",
+      "name": "ChatHub",
+      "description": "多合一 AI 聊天客户端，支持 ChatGPT、Claude、Gemini 等多个模型同时对话",
+      "url": "https://chathub.gg",
+      "category": "chat",
+      "tags": [
+        "Chat",
+        "多模型",
+        "浏览器扩展"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "discoveredFrom": "候选池",
+      "addedAt": "2026-04-07",
+      "descriptionEn": "[Chinese] 多合一 AI 聊天客户端，支持 ChatGPT、Claude、Gemini 等多个模型同时对话",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "4.0",
+      "users": "50K+"
+    },
+    {
+      "id": "bardeen",
+      "name": "Bardeen",
+      "description": "AI 自动化工作流工具，无需代码即可连接各种应用",
+      "url": "https://bardeen.ai",
+      "category": "code",
+      "tags": [
+        "Automation",
+        "工作流",
+        "无代码"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "discoveredFrom": "候选池",
+      "addedAt": "2026-04-07",
+      "descriptionEn": "[Chinese] AI 自动化工作流工具，无需代码即可连接各种应用",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "3.8",
+      "users": "50K+"
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "description": "本地运行大型语言模型的工具，支持 Llama 2、Mistral 等开源模型",
+      "url": "https://ollama.ai",
+      "category": "chat",
+      "tags": [
+        "本地部署",
+        "开源",
+        "LLM"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "候选池",
+      "addedAt": "2026-04-07",
+      "descriptionEn": "[Chinese] 本地运行大型语言模型的工具，支持 Llama 2、Mistral 等开源模型",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "4.3",
+      "users": "500K+"
+    },
+    {
+      "id": "lm-studio",
+      "name": "LM Studio",
+      "description": "在本地电脑上运行 AI 模型的桌面应用",
+      "url": "https://lmstudio.ai",
+      "category": "chat",
+      "tags": [
+        "本地部署",
+        "桌面应用",
+        "AI 模型"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "discoveredFrom": "候选池",
+      "addedAt": "2026-04-07",
+      "descriptionEn": "[Chinese] 在本地电脑上运行 AI 模型的桌面应用",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "4.5",
+      "users": "10M+"
+    },
+    {
+      "id": "continue",
+      "name": "Continue",
+      "description": "开源的 AI 代码补全 IDE 插件，支持多种模型",
+      "url": "https://continue.dev",
+      "category": "chat",
+      "tags": [
+        "Coding",
+        "代码补全",
+        "开源"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "候选池",
+      "addedAt": "2026-04-07",
+      "descriptionEn": "[Chinese] 开源的 AI 代码补全 IDE 插件，支持多种模型",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "4.3",
+      "users": "5M+"
+    },
+    {
+      "id": "aider",
+      "name": "Aider",
+      "description": "命令行 AI 编程助手，直接在终端中协作编写代码",
+      "url": "https://aider.chat",
+      "category": "chat",
+      "tags": [
+        "Coding",
+        "命令行",
+        "Collaboration"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "discoveredFrom": "候选池",
+      "addedAt": "2026-04-07",
+      "descriptionEn": "AI coding assistant for code completion and generation",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "4.2",
+      "users": "10M+"
+    },
+    {
+      "id": "gpt-4o",
+      "name": "GPT-4o",
+      "description": "OpenAI 最新多模态模型，支持文本、图像、音频实时交互",
+      "url": "https://openai.com/index/hello-gpt-4o/",
+      "category": "chat",
+      "tags": [
+        "多模态",
+        "OpenAI",
+        "最新"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "discoveredFrom": "候选池",
+      "addedAt": "2026-04-07",
+      "descriptionEn": "[Chinese] OpenAI 最新多模态模型，支持文本、图像、音频实时交互",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "3.8",
+      "users": "100K+"
+    },
+    {
+      "id": "claude-3-5-sonnet",
+      "name": "Claude 3.5 Sonnet",
+      "description": "Anthropic 最新模型，在推理和编码方面表现优异",
+      "url": "https://anthropic.com/news/claude-3-5-sonnet",
+      "category": "chat",
+      "tags": [
+        "Anthropic",
+        "最新",
+        "编码"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "discoveredFrom": "候选池",
+      "addedAt": "2026-04-07",
+      "descriptionEn": "[Chinese] Anthropic 最新模型，在推理和编码方面表现优异",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "3.9",
+      "users": "5M+"
+    },
+    {
+      "id": "stable-video-diffusion",
+      "name": "Stable Video Diffusion",
+      "description": "Stability AI 推出的开源视频生成模型",
+      "url": "https://stability.ai/research/stable-video-diffusion",
+      "category": "chat",
+      "tags": [
+        "Video Generation",
+        "开源",
+        "Stability AI"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "候选池",
+      "addedAt": "2026-04-07",
+      "descriptionEn": "[Chinese] Stability AI 推出的开源视频生成模型",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "4.2",
+      "users": "100K+"
+    },
+    {
+      "id": "whisper",
+      "name": "Whisper",
+      "description": "OpenAI 开源的语音识别模型，支持多语言",
+      "url": "https://openai.com/research/whisper",
+      "category": "chat",
+      "tags": [
+        "Speech Recognition",
+        "开源",
+        "多语言"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "候选池",
+      "addedAt": "2026-04-07",
+      "descriptionEn": "[Chinese] OpenAI 开源的语音识别模型，支持多语言",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "4.3",
+      "users": "50K+"
+    },
+    {
+      "id": "rvc",
+      "name": "RVC",
+      "description": "开源的 AI 语音转换工具，支持声音克隆和变声",
+      "url": "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "category": "audio",
+      "tags": [
+        "语音转换",
+        "开源",
+        "声音克隆"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "候选池",
+      "addedAt": "2026-04-07",
+      "descriptionEn": "[Chinese] 开源的 AI 语音转换工具，支持声音克隆和变声",
+      "useCases": [
+        "Podcasting",
+        "Voiceovers",
+        "Music Production",
+        "Audiobooks",
+        "Sound Design"
+      ],
+      "alternatives": [],
+      "rating": "3.7",
+      "users": "5M+"
+    },
+    {
+      "id": "comfyui",
+      "name": "ComfyUI",
+      "description": "节点式 Stable Diffusion UI，支持复杂工作流",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "category": "image",
+      "tags": [
+        "Image Generation",
+        "节点式",
+        "工作流"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "discoveredFrom": "候选池",
+      "addedAt": "2026-04-07",
+      "descriptionEn": "[Chinese] 节点式 Stable Diffusion UI，支持复杂工作流",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "4.0",
+      "users": "1M+"
+    },
+    {
+      "id": "automatic1111",
+      "name": "Automatic1111",
+      "description": "最流行的 Stable Diffusion WebUI",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "category": "image",
+      "tags": [
+        "Image Generation",
+        "WebUI",
+        "流行"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "discoveredFrom": "候选池",
+      "addedAt": "2026-04-07",
+      "descriptionEn": "[Chinese] 最流行的 Stable Diffusion WebUI",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "3.7",
+      "users": "50K+"
+    },
+    {
+      "id": "fooocus",
+      "name": "Fooocus",
+      "description": "简化的 Stable Diffusion 工具，专注于易用性和高质量输出",
+      "url": "https://github.com/Fooocusers/Fooocus",
+      "category": "image",
+      "tags": [
+        "Image Generation",
+        "简化",
+        "易用"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "discoveredFrom": "候选池",
+      "addedAt": "2026-04-07",
+      "descriptionEn": "[Chinese] 简化的 Stable Diffusion 工具，专注于易用性和高质量输出",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "4.4",
+      "users": "5M+"
+    },
+    {
+      "id": "openclaw",
+      "name": "Openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+      "url": "https://github.com/openclaw/openclaw",
+      "category": "chat",
+      "tags": [
+        "GitHub",
+        "开源",
+        "ai",
+        "热门"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-07",
+      "githubStars": 350237,
+      "descriptionEn": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "4.2",
+      "users": "10M+"
+    },
+    {
+      "id": "autogpt",
+      "name": "AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "category": "code",
+      "tags": [
+        "GitHub",
+        "开源",
+        "ai",
+        "热门"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-07",
+      "githubStars": 183191,
+      "descriptionEn": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "4.3",
+      "users": "10M+"
+    },
+    {
+      "id": "n8n",
+      "name": "N8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "url": "https://github.com/n8n-io/n8n",
+      "category": "image",
+      "tags": [
+        "GitHub",
+        "开源",
+        "ai",
+        "热门"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-07",
+      "githubStars": 182745,
+      "descriptionEn": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "4.4",
+      "users": "1M+"
+    },
+    {
+      "id": "prompts-chat",
+      "name": "Prompts.Chat",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "url": "https://github.com/f/prompts.chat",
+      "category": "chat",
+      "tags": [
+        "GitHub",
+        "开源",
+        "ai",
+        "热门"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-07",
+      "githubStars": 157706,
+      "descriptionEn": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "4.4",
+      "users": "1M+"
+    },
+    {
+      "id": "llms-from-scratch",
+      "name": "LLMs From Scratch",
+      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "category": "chat",
+      "tags": [
+        "GitHub",
+        "开源",
+        "artificial-intelligence",
+        "热门"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-07",
+      "githubStars": 90161,
+      "descriptionEn": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "3.5",
+      "users": "50K+"
+    },
+    {
+      "id": "deep-live-cam",
+      "name": "Deep Live Cam",
+      "description": "real time face swap and one-click video deepfake with only a single image",
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "category": "image",
+      "tags": [
+        "GitHub",
+        "开源",
+        "artificial-intelligence",
+        "热门"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-07",
+      "githubStars": 89117,
+      "descriptionEn": "real time face swap and one-click video deepfake with only a single image",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "4.1",
+      "users": "50K+"
+    },
+    {
+      "id": "openhands",
+      "name": "OpenHands",
+      "description": "🙌 OpenHands: AI-Driven Development",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "category": "image",
+      "tags": [
+        "GitHub",
+        "开源",
+        "artificial-intelligence",
+        "热门"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-07",
+      "githubStars": 70698,
+      "descriptionEn": "🙌 OpenHands: AI-Driven Development",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "4.0",
+      "users": "1M+"
+    },
+    {
+      "id": "tensorflow",
+      "name": "Tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "category": "education",
+      "tags": [
+        "GitHub",
+        "开源",
+        "machine-learning",
+        "热门"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-07",
+      "githubStars": 194515,
+      "descriptionEn": "An Open Source Machine Learning Framework for Everyone",
+      "useCases": [
+        "Online Courses",
+        "Tutoring",
+        "Skill Development",
+        "Language Learning",
+        "Test Prep"
+      ],
+      "alternatives": [],
+      "rating": "4.2",
+      "users": "5M+"
+    },
+    {
+      "id": "transformers",
+      "name": "Transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "url": "https://github.com/huggingface/transformers",
+      "category": "chat",
+      "tags": [
+        "GitHub",
+        "开源",
+        "machine-learning",
+        "热门"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-07",
+      "githubStars": 158913,
+      "descriptionEn": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "4.0",
+      "users": "5M+"
+    },
+    {
+      "id": "pytorch",
+      "name": "Pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "url": "https://github.com/pytorch/pytorch",
+      "category": "education",
+      "tags": [
+        "GitHub",
+        "开源",
+        "machine-learning",
+        "热门"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-07",
+      "githubStars": 98859,
+      "descriptionEn": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "useCases": [
+        "Online Courses",
+        "Tutoring",
+        "Skill Development",
+        "Language Learning",
+        "Test Prep"
+      ],
+      "alternatives": [],
+      "rating": "4.2",
+      "users": "10M+"
+    },
+    {
+      "id": "everything-claude-code",
+      "name": "Everything Claude Code",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "category": "code",
+      "tags": [
+        "GitHub",
+        "开源",
+        "llm",
+        "热门"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-07",
+      "githubStars": 142967,
+      "descriptionEn": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "3.5",
+      "users": "5M+"
+    },
+    {
+      "id": "langflow",
+      "name": "Langflow",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "url": "https://github.com/langflow-ai/langflow",
+      "category": "productivity",
+      "tags": [
+        "GitHub",
+        "开源",
+        "generative-ai",
+        "热门"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-07",
+      "githubStars": 146620,
+      "descriptionEn": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "useCases": [
+        "Note Taking",
+        "Project Management",
+        "Documentation",
+        "Team Collaboration",
+        "Task Automation"
+      ],
+      "alternatives": [],
+      "rating": "4.1",
+      "users": "10M+"
+    },
+    {
+      "id": "langchain",
+      "name": "Langchain",
+      "description": "The agent engineering platform",
+      "url": "https://github.com/langchain-ai/langchain",
+      "category": "chat",
+      "tags": [
+        "GitHub",
+        "开源",
+        "generative-ai",
+        "热门"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-07",
+      "githubStars": 132558,
+      "descriptionEn": "The agent engineering platform",
+      "useCases": [
+        "Customer Support",
+        "Research Assistance",
+        "Writing Help",
+        "Brainstorming",
+        "General Q&A"
+      ],
+      "alternatives": [],
+      "rating": "3.7",
+      "users": "10M+"
+    },
+    {
+      "id": "generative-ai-for-beginners",
+      "name": "Generative Ai For Beginners",
+      "description": "21 Lessons, Get Started Building with Generative AI ",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "category": "image",
+      "tags": [
+        "GitHub",
+        "开源",
+        "generative-ai",
+        "热门"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-07",
+      "githubStars": 109003,
+      "descriptionEn": "21 Lessons, Get Started Building with Generative AI ",
+      "useCases": [
+        "Social Media Graphics",
+        "Logo Design",
+        "Marketing Materials",
+        "Digital Art",
+        "Photo Editing"
+      ],
+      "alternatives": [],
+      "rating": "3.8",
+      "users": "500K+"
+    },
+    {
+      "id": "prompt-engineering-guide",
+      "name": "Prompt Engineering Guide",
+      "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
+      "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+      "category": "code",
+      "tags": [
+        "GitHub",
+        "开源",
+        "generative-ai",
+        "热门"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-07",
+      "githubStars": 72925,
+      "descriptionEn": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
+      "useCases": [
+        "Web Development",
+        "API Development",
+        "Debugging",
+        "Code Review",
+        "Learning to Code"
+      ],
+      "alternatives": [],
+      "rating": "3.9",
+      "users": "10K+"
+    },
+    {
+      "id": "spacy",
+      "name": "SpaCy",
+      "description": "💫 Industrial-strength Natural Language Processing (NLP) in Python",
+      "url": "https://github.com/explosion/spaCy",
+      "category": "chat",
+      "tags": [
+        "GitHub",
+        "开源",
+        "neural-network",
+        "热门"
+      ],
+      "pricing": "免费",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-09",
+      "githubStars": 33430
+    },
+    {
+      "id": "netron",
+      "name": "Netron",
+      "description": "Visualizer for neural network, deep learning and machine learning models",
+      "url": "https://github.com/lutzroeder/netron",
+      "category": "image",
+      "tags": [
+        "GitHub",
+        "开源",
+        "neural-network",
+        "热门"
+      ],
+      "pricing": "免费",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-09",
+      "githubStars": 32725
+    },
+    {
+      "id": "ai-expert-roadmap",
+      "name": "AI Expert Roadmap",
+      "description": "Roadmap to becoming an Artificial Intelligence Expert in 2022",
+      "url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap",
+      "category": "image",
+      "tags": [
+        "GitHub",
+        "开源",
+        "neural-network",
+        "热门"
+      ],
+      "pricing": "免费",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-09",
+      "githubStars": 30892
+    },
+    {
+      "id": "vllm",
+      "name": "Vllm",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "url": "https://github.com/vllm-project/vllm",
+      "category": "chat",
+      "tags": [
+        "GitHub",
+        "开源",
+        "transformer",
+        "热门"
+      ],
+      "pricing": "免费",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-09",
+      "githubStars": 75930
+    },
+    {
+      "id": "annotated-deep-learning-paper-implementations",
+      "name": "Annotated_deep_learning_paper_implementations",
+      "description": "🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(cyclegan, stylegan2, ...), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, ... 🧠",
+      "url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+      "category": "code",
+      "tags": [
+        "GitHub",
+        "开源",
+        "transformer",
+        "热门"
+      ],
+      "pricing": "免费",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-09",
+      "githubStars": 66254
+    },
+    {
+      "id": "whisper-cpp",
+      "name": "Whisper.Cpp",
+      "description": "Port of OpenAI's Whisper model in C/C++",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "category": "chat",
+      "tags": [
+        "GitHub",
+        "开源",
+        "transformer",
+        "热门"
+      ],
+      "pricing": "免费",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-09",
+      "githubStars": 48429
+    },
+    {
+      "id": "mmdetection",
+      "name": "Mmdetection",
+      "description": "OpenMMLab Detection Toolbox and Benchmark",
+      "url": "https://github.com/open-mmlab/mmdetection",
+      "category": "chat",
+      "tags": [
+        "GitHub",
+        "开源",
+        "transformer",
+        "热门"
+      ],
+      "pricing": "免费",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-09",
+      "githubStars": 32585
+    },
+    {
+      "id": "diffusers",
+      "name": "Diffusers",
+      "description": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "url": "https://github.com/huggingface/diffusers",
+      "category": "image",
+      "tags": [
+        "GitHub",
+        "开源",
+        "diffusion",
+        "热门"
+      ],
+      "pricing": "免费",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-09",
+      "githubStars": 33286
+    },
+    {
+      "id": "sglang",
+      "name": "Sglang",
+      "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+      "url": "https://github.com/sgl-project/sglang",
+      "category": "chat",
+      "tags": [
+        "GitHub",
+        "开源",
+        "diffusion",
+        "热门"
+      ],
+      "pricing": "免费",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-09",
+      "githubStars": 25598
+    },
+    {
+      "id": "peft",
+      "name": "Peft",
+      "description": "🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning.",
+      "url": "https://github.com/huggingface/peft",
+      "category": "image",
+      "tags": [
+        "GitHub",
+        "开源",
+        "diffusion",
+        "热门"
+      ],
+      "pricing": "免费",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-09",
+      "githubStars": 20905
+    },
+    {
+      "id": "leedl-tutorial",
+      "name": "Leedl Tutorial",
+      "description": "《李宏毅深度学习教程》（李宏毅老师推荐👍，苹果书🍎），PDF下载地址：https://github.com/datawhalechina/leedl-tutorial/releases",
+      "url": "https://github.com/datawhalechina/leedl-tutorial",
+      "category": "education",
+      "tags": [
+        "GitHub",
+        "开源",
+        "diffusion",
+        "热门"
+      ],
+      "pricing": "免费",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-09",
+      "githubStars": 16459
+    },
+    {
+      "id": "localai",
+      "name": "LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "url": "https://github.com/mudler/LocalAI",
+      "category": "chat",
+      "tags": [
+        "GitHub",
+        "开源",
+        "stable-diffusion",
+        "热门"
+      ],
+      "pricing": "免费",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-09",
+      "githubStars": 45148
+    },
+    {
+      "id": "invokeai",
+      "name": "InvokeAI",
+      "description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.",
+      "url": "https://github.com/invoke-ai/InvokeAI",
+      "category": "image",
+      "tags": [
+        "GitHub",
+        "开源",
+        "stable-diffusion",
+        "热门"
+      ],
+      "pricing": "免费",
+      "featured": false,
+      "discoveredFrom": "GitHub Trending",
+      "addedAt": "2026-04-09",
+      "githubStars": 26964
+    },
+    {
+      "id": "latest-in-ai",
+      "name": "Latest In AI",
+      "description": "The Verge AI 报道的 AI 工具",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "category": "chat",
+      "tags": [
+        "新闻",
+        "The Verge AI"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "The Verge AI",
+      "addedAt": "2026-04-09"
+    },
+    {
+      "id": "the-verge-daily",
+      "name": "The Verge Daily",
+      "description": "The Verge AI 报道的 AI 工具",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "category": "chat",
+      "tags": [
+        "新闻",
+        "The Verge AI"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "The Verge AI",
+      "addedAt": "2026-04-09"
+    },
+    {
+      "id": "hermes-ai",
+      "name": "Hermes AI",
+      "description": "2026 年 4 月爆火的 AI 助手，以拟人化对话和创意写作能力著称",
+      "url": "https://hermes.ai",
+      "category": "chat",
+      "tags": [
+        "热点",
+        "对话",
+        "创意写作",
+        "2026 热门"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "热点监控",
+      "addedAt": "2026-04-09"
+    },
+    {
+      "id": "seedance-2-0",
+      "name": "Seedance 2.0",
+      "description": "最新一代 AI 视频生成模型，支持长视频和复杂场景",
+      "url": "https://seedance.ai",
+      "category": "chat",
+      "tags": [
+        "热点",
+        "视频生成",
+        "2.0",
+        "2026 热门"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "热点监控",
+      "addedAt": "2026-04-09"
+    },
+    {
+      "id": "happyhorse",
+      "name": "HappyHorse",
+      "description": "AI 驱动的创意内容生成平台，专注于社交媒体内容创作",
+      "url": "https://happyhorse.ai",
+      "category": "chat",
+      "tags": [
+        "热点",
+        "内容创作",
+        "社交媒体",
+        "2026 热门"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "热点监控",
+      "addedAt": "2026-04-09"
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "description": "自主 AI 代理，能够独立完成复杂任务链",
+      "url": "https://manus.ai",
+      "category": "chat",
+      "tags": [
+        "热点",
+        "AI Agent",
+        "自动化",
+        "2026 热门"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "热点监控",
+      "addedAt": "2026-04-09"
+    },
+    {
+      "id": "grok-3",
+      "name": "Grok-3",
+      "description": "xAI 最新大语言模型，实时数据访问和幽默对话",
+      "url": "https://grok.x.ai",
+      "category": "chat",
+      "tags": [
+        "热点",
+        "大模型",
+        "xAI",
+        "实时数据"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "热点监控",
+      "addedAt": "2026-04-09"
+    },
+    {
+      "id": "kling-ai",
+      "name": "Kling AI",
+      "description": "快手推出的 AI 视频生成模型，支持中文场景优化",
+      "url": "https://klingai.com",
+      "category": "chat",
+      "tags": [
+        "视频生成",
+        "国产",
+        "快手"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "热点监控",
+      "addedAt": "2026-04-09"
+    },
+    {
+      "id": "runway-gen-3",
+      "name": "Runway Gen-3",
+      "description": "Runway 最新视频生成模型，电影级质量",
+      "url": "https://runwayml.com/gen3",
+      "category": "video",
+      "tags": [
+        "视频生成",
+        "Runway",
+        "电影级"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "热点监控",
+      "addedAt": "2026-04-09"
+    },
+    {
+      "id": "suno-v3",
+      "name": "Suno v3",
+      "description": "AI 音乐生成工具最新版本，支持完整歌曲创作",
+      "url": "https://suno.ai",
+      "category": "audio",
+      "tags": [
+        "音乐生成",
+        "AI 音乐",
+        "v3"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "热点监控",
+      "addedAt": "2026-04-09"
+    },
+    {
+      "id": "stable-diffusion-3",
+      "name": "Stable Diffusion 3",
+      "description": "Stability AI 最新开源图像生成模型",
+      "url": "https://stability.ai/stable-diffusion-3",
+      "category": "chat",
+      "tags": [
+        "图像生成",
+        "开源",
+        "Stability AI"
+      ],
+      "pricing": "免费",
+      "featured": false,
+      "discoveredFrom": "热点监控",
+      "addedAt": "2026-04-09"
+    },
+    {
+      "id": "dall-e-3",
+      "name": "DALL-E 3",
+      "description": "OpenAI 最新图像生成模型，集成于 ChatGPT",
+      "url": "https://openai.com/dall-e-3",
+      "category": "chat",
+      "tags": [
+        "图像生成",
+        "OpenAI",
+        "ChatGPT 集成"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "热点监控",
+      "addedAt": "2026-04-09"
+    },
+    {
+      "id": "sora",
+      "name": "Sora",
+      "description": "OpenAI 推出的文本生成视频模型（待发布）",
+      "url": "https://openai.com/sora",
+      "category": "chat",
+      "tags": [
+        "视频生成",
+        "OpenAI",
+        "待发布"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "热点监控",
+      "addedAt": "2026-04-09"
+    },
+    {
+      "id": "show-hn-i-m-an-airline-pilot-i-built-interactive-graphs-globes-of-my-flights",
+      "name": "Show HN: I'm an airline pilot – I built interactive graphs/globes of my flights",
+      "description": "HackerNews Show HN 推荐 - Show HN: I'm an airline pilot – I built interactive graphs/globes of my flights",
+      "url": "https://jameshard.ing/pilot",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐",
+        "HackerNews 热门"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 1539
+    },
+    {
+      "id": "show-hn-airmash-multiplayer-missile-warfare-html5-game",
+      "name": "Show HN: Airmash – Multiplayer Missile Warfare HTML5 Game",
+      "description": "HackerNews Show HN 推荐 - Show HN: Airmash – Multiplayer Missile Warfare HTML5 Game",
+      "url": "https://airma.sh/",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐",
+        "HackerNews 热门"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 1535
+    },
+    {
+      "id": "show-hn-boring-report-a-news-app-that-uses-ai-to-desensationalize-the-news",
+      "name": "Show HN: Boring Report, a news app that uses AI to desensationalize the news",
+      "description": "HackerNews Show HN 推荐 - Show HN: Boring Report, a news app that uses AI to desensationalize the news",
+      "url": "https://www.boringreport.org/",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐",
+        "HackerNews 热门"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 1166
+    },
+    {
+      "id": "show-hn-new-ai-edits-images-based-on-text-instructions",
+      "name": "Show HN: New AI edits images based on text instructions",
+      "description": "HackerNews Show HN 推荐 - Show HN: New AI edits images based on text instructions",
+      "url": "https://github.com/brycedrennan/imaginAIry/blob/master/README.md",
+      "category": "image",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐",
+        "HackerNews 热门"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 1098
+    },
+    {
+      "id": "show-hn-i-built-an-ai-that-turns-github-codebases-into-easy-tutorials",
+      "name": "Show HN: I built an AI that turns GitHub codebases into easy tutorials",
+      "description": "HackerNews Show HN 推荐 - Show HN: I built an AI that turns GitHub codebases into easy tutorials",
+      "url": "https://github.com/The-Pocket/Tutorial-Codebase-Knowledge",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐",
+        "HackerNews 热门"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 923
+    },
+    {
+      "id": "show-hn-get-conversational-practice-in-over-20-languages-by-talking-to-an-ai",
+      "name": "Show HN: Get conversational practice in over 20 languages by talking to an AI",
+      "description": "HackerNews Show HN 推荐 - Show HN: Get conversational practice in over 20 languages by talking to an AI",
+      "url": "https://talk.quazel.com/chat/try",
+      "category": "chat",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐",
+        "HackerNews 热门"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 787
+    },
+    {
+      "id": "show-hn-i-trained-an-ai-model-on-120m-songs-from-itunes",
+      "name": "Show HN: I trained an AI model on 120M+ songs from iTunes",
+      "description": "HackerNews Show HN 推荐 - Show HN: I trained an AI model on 120M+ songs from iTunes",
+      "url": "https://maroofy.com/?hn=v3",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐",
+        "HackerNews 热门"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 753
+    },
+    {
+      "id": "show-hn-apfel-the-free-ai-already-on-your-mac",
+      "name": "Show HN: Apfel – The free AI already on your Mac",
+      "description": "HackerNews Show HN 推荐 - Show HN: Apfel – The free AI already on your Mac",
+      "url": "https://apfel.franzai.com",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐",
+        "HackerNews 热门"
+      ],
+      "pricing": "免费",
+      "featured": false,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 743
+    },
+    {
+      "id": "show-hn-pornpen-ai-ai-generated-porn",
+      "name": "Show HN: Pornpen.ai – AI-Generated Porn",
+      "description": "HackerNews Show HN 推荐 - Show HN: Pornpen.ai – AI-Generated Porn",
+      "url": "https://pornpen.ai/",
+      "category": "video",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐",
+        "HackerNews 热门"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 711
+    },
+    {
+      "id": "show-hn-self-generated-custom-art-for-your-home-or-airbnb",
+      "name": "Show HN: Self-generated custom art for your home or Airbnb",
+      "description": "HackerNews Show HN 推荐 - Show HN: Self-generated custom art for your home or Airbnb",
+      "url": "https://www.eliotand.me",
+      "category": "image",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐",
+        "HackerNews 热门"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 644
+    },
+    {
+      "id": "seedance",
+      "name": "Seedance",
+      "description": "热门 AI 工具 - Seedance",
+      "url": "https://www.google.com/search?q=Seedance",
+      "category": "chat",
+      "tags": [
+        "热点",
+        " trending"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "Hot Keywords",
+      "addedAt": "2026-04-13"
+    },
+    {
+      "id": "replit-agent",
+      "name": "Replit Agent",
+      "description": "Replit 推出的 AI 编程助手，能从零构建完整应用",
+      "url": "https://replit.com/ai",
+      "category": "chat",
+      "tags": [
+        "编程",
+        "AI Agent",
+        "应用生成",
+        "低代码"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "热点监控",
+      "addedAt": "2026-04-13"
+    },
+    {
+      "id": "arc-search",
+      "name": "Arc Search",
+      "description": "Arc 浏览器推出的 AI 搜索功能，自动整合多源信息",
+      "url": "https://arc.net/search",
+      "category": "chat",
+      "tags": [
+        "搜索",
+        "浏览器",
+        "AI 搜索",
+        "信息整合"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "热点监控",
+      "addedAt": "2026-04-13"
+    },
+    {
+      "id": "pi-ai",
+      "name": "Pi AI",
+      "description": "Inflection AI 推出的个人 AI 助手，注重情感支持",
+      "url": "https://pi.ai",
+      "category": "chat",
+      "tags": [
+        "对话",
+        "个人助手",
+        "情感支持",
+        "心理健康"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "热点监控",
+      "addedAt": "2026-04-13"
+    },
+    {
+      "id": "airtable-ai",
+      "name": "Airtable AI",
+      "description": "智能表格平台推出的 AI 功能，自动分类和摘要",
+      "url": "https://airtable.com",
+      "category": "productivity",
+      "tags": [
+        "数据库",
+        "办公",
+        "AI",
+        "智能表格"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": false,
+      "discoveredFrom": "热点监控",
+      "addedAt": "2026-04-13"
+    },
+    {
+      "id": "show-hn-stork-mcp-server-so-claude-cursor-can-search-14k-mcp-servers-ai-tools",
+      "name": "Show HN: Stork – MCP server so Claude/Cursor can search 14k MCP servers AI tools",
+      "description": "HackerNews Show HN - Show HN: Stork – MCP server so Claude/Cursor can search 14k MCP servers AI tools",
+      "url": "https://www.stork.ai",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 2
+    },
+    {
+      "id": "show-hn-i-built-a-project-board-where-ai-agents-join-as-real-teammates",
+      "name": "Show HN: I built a project board where AI agents join as real teammates",
+      "description": "HackerNews Show HN - Show HN: I built a project board where AI agents join as real teammates",
+      "url": "https://is.team",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 3
+    },
+    {
+      "id": "show-hn-a-proactive-ai-agent-on-imessage-that-texts-you-before-you-even-ask",
+      "name": "Show HN: A proactive AI agent on iMessage that texts you before you even ask",
+      "description": "HackerNews Show HN - Show HN: A proactive AI agent on iMessage that texts you before you even ask",
+      "url": "https://hemesh.tech/builds/summer-ai.html",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-picpocket-efficient-photo-storage-sharing-without-ai",
+      "name": "Show HN: PicPocket – Efficient photo storage/sharing without AI",
+      "description": "HackerNews Show HN - Show HN: PicPocket – Efficient photo storage/sharing without AI",
+      "url": "https://picpocket.io",
+      "category": "image",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 2
+    },
+    {
+      "id": "show-hn-specsight-living-product-specs-generated-from-your-codebase",
+      "name": "Show HN: Specsight – Living product specs generated from your codebase",
+      "description": "HackerNews Show HN - Show HN: Specsight – Living product specs generated from your codebase",
+      "url": "https://specsight.app",
+      "category": "video",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-boringbar-a-taskbar-style-dock-replacement-for-macos",
+      "name": "Show HN: boringBar – a taskbar-style dock replacement for macOS",
+      "description": "HackerNews Show HN - Show HN: boringBar – a taskbar-style dock replacement for macOS",
+      "url": "https://boringbar.app/",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐",
+        "HackerNews 热门"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 307
+    },
+    {
+      "id": "show-hn-i-created-an-llm-harness-for-language-learning",
+      "name": "Show HN: I Created an LLM Harness for Language Learning",
+      "description": "HackerNews Show HN - Show HN: I Created an LLM Harness for Language Learning",
+      "url": "https://language.coursely.ai/welcomee",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-give-your-ai-agent-a-preview-link-for-files-and-diff",
+      "name": "Show HN: Give your AI agent a preview link for files and diff",
+      "description": "HackerNews Show HN - Show HN: Give your AI agent a preview link for files and diff",
+      "url": "https://diff4.com/",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-the-cutest-whatsapp-concierge-for-dog-friendly-travel",
+      "name": "Show HN: The cutest WhatsApp concierge for dog friendly travel",
+      "description": "HackerNews Show HN - Show HN: The cutest WhatsApp concierge for dog friendly travel",
+      "url": "https://kaliconcierge.com/",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-run-ai-coding-agents-in-real-local-sandboxes-not-git-worktrees",
+      "name": "Show HN: Run AI coding agents in real, local sandboxes, not Git worktrees",
+      "description": "HackerNews Show HN - Show HN: Run AI coding agents in real, local sandboxes, not Git worktrees",
+      "url": "https://superhq.ai/",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-13",
+      "hnPoints": 4
+    },
+    {
+      "id": "show-hn-memfactory-unified-inference-and-training-framework-for-agent-memory",
+      "name": "Show HN: MemFactory: Unified Inference and Training Framework for Agent Memory",
+      "description": "HackerNews Show HN - Show HN: MemFactory: Unified Inference and Training Framework for Agent Memory",
+      "url": "https://arxiv.org/abs/2603.29493",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 2
+    },
+    {
+      "id": "show-hn-benchmarking-how-ai-models-write-vulnerable-code-under-pressure",
+      "name": "Show HN: Benchmarking how AI models write vulnerable code under pressure",
+      "description": "HackerNews Show HN - Show HN: Benchmarking how AI models write vulnerable code under pressure",
+      "url": "https://leaderboard.atella.ai/code-security.html",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-payclaw-give-your-ai-agent-a-wallet-it-can-spend",
+      "name": "Show HN: PayClaw – Give your AI agent a wallet it can spend",
+      "description": "HackerNews Show HN - Show HN: PayClaw – Give your AI agent a wallet it can spend",
+      "url": "https://www.payclaw.me/",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-spectrum-deploy-ai-agents-to-imessage-whatsapp-telegram-and-more",
+      "name": "Show HN: Spectrum – Deploy AI Agents to iMessage, WhatsApp, Telegram, and More",
+      "description": "HackerNews Show HN - Show HN: Spectrum – Deploy AI Agents to iMessage, WhatsApp, Telegram, and More",
+      "url": "https://photon.codes/spectrum",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 7
+    },
+    {
+      "id": "show-hn-fieldops-bench-an-open-eval-for-physical-world-ai-agents",
+      "name": "Show HN: FieldOps-Bench an open eval for physical-world AI agents",
+      "description": "HackerNews Show HN - Show HN: FieldOps-Bench an open eval for physical-world AI agents",
+      "url": "https://www.camerasearch.ai/benchmark",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-datafrey-mcp-server-for-snowflake-with-text-to-sql-agent",
+      "name": "Show HN: DataFrey – MCP server for Snowflake with text-to-SQL agent",
+      "description": "HackerNews Show HN - Show HN: DataFrey – MCP server for Snowflake with text-to-SQL agent",
+      "url": "https://docs.datafrey.ai",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-octokraft-code-health-and-pr-review-for-ai-assisted-teams",
+      "name": "Show HN: Octokraft – code health and PR review for AI-assisted teams",
+      "description": "HackerNews Show HN - Show HN: Octokraft – code health and PR review for AI-assisted teams",
+      "url": "https://app.octokraft.com",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-paper-lantern-improving-autoresearch-with-research-knowledge",
+      "name": "Show HN: Paper Lantern – improving Autoresearch with research knowledge",
+      "description": "HackerNews Show HN - Show HN: Paper Lantern – improving Autoresearch with research knowledge",
+      "url": "https://www.paperlantern.ai/code",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 2
+    },
+    {
+      "id": "show-hn-new-way-to-explore-code-in-vs-code-vs-code-extension",
+      "name": "Show HN: New way to explore code in vs. code ( vs. code extension)",
+      "description": "HackerNews Show HN - Show HN: New way to explore code in vs. code ( vs. code extension)",
+      "url": "https://marketplace.visualstudio.com/items?itemName=AhmedRakan.structura-v2",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-modern-ai-client-for-mac-with-agentic-tools-clean-ui-builtin-privacy",
+      "name": "Show HN: Modern AI client for Mac with agentic tools, clean UI, builtin privacy",
+      "description": "HackerNews Show HN - Show HN: Modern AI client for Mac with agentic tools, clean UI, builtin privacy",
+      "url": "https://elvean.app/",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-youdeservenow-an-ai-enabler-that-rationalizes-your-impulse-buys",
+      "name": "Show HN: YouDeserveNow – An AI enabler that rationalizes your impulse buys",
+      "description": "HackerNews Show HN - Show HN: YouDeserveNow – An AI enabler that rationalizes your impulse buys",
+      "url": "https://www.youdeservenow.com",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 2
+    },
+    {
+      "id": "show-hn-we-benchmarked-18-llms-on-ocr-7k-calls-cheaper-models-win",
+      "name": "Show HN: We benchmarked 18 LLMs on OCR (7K+ calls) – cheaper models win",
+      "description": "HackerNews Show HN - Show HN: We benchmarked 18 LLMs on OCR (7K+ calls) – cheaper models win",
+      "url": "https://www.arbitrhq.ai/leaderboards/",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-data-driven-geo-and-marketing-agent-platform",
+      "name": "Show HN: Data-driven GEO and marketing agent platform",
+      "description": "HackerNews Show HN - Show HN: Data-driven GEO and marketing agent platform",
+      "url": "https://dageno.ai",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 6
+    },
+    {
+      "id": "show-hn-aide-a-customizable-android-assistant-voice-choose-your-provider",
+      "name": "Show HN: Aide – A customizable Android assistant (voice, choose your provider)",
+      "description": "HackerNews Show HN - Show HN: Aide – A customizable Android assistant (voice, choose your provider)",
+      "url": "https://aideassistant.com/",
+      "category": "chat",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-gbrain-an-ai-tool-for-diagnosis-and-therapy-for-neurodivergents",
+      "name": "Show HN: GBrain, an AI tool for diagnosis and therapy for neurodivergents",
+      "description": "HackerNews Show HN - Show HN: GBrain, an AI tool for diagnosis and therapy for neurodivergents",
+      "url": "https://www.neuroplusgbrain.net/",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 3
+    },
+    {
+      "id": "show-hn-chess-of-minds-a-chess-game-where-every-piece-is-an-ai-agent",
+      "name": "Show HN: Chess of Minds, a chess game where every piece is an AI agent",
+      "description": "HackerNews Show HN - Show HN: Chess of Minds, a chess game where every piece is an AI agent",
+      "url": "https://chessminds.fun",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-trainly-free-72-hour-audit-of-your-ai-agent-s-production-traces",
+      "name": "Show HN: Trainly – Free 72-hour audit of your AI agent's production traces",
+      "description": "HackerNews Show HN - Show HN: Trainly – Free 72-hour audit of your AI agent's production traces",
+      "url": "https://www.trainlyai.com/audit",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 3
+    },
+    {
+      "id": "show-hn-hold-aero-fly-and-learn-ifr-flying-in-the-browser",
+      "name": "Show HN: Hold.aero – Fly and Learn IFR flying in the browser",
+      "description": "HackerNews Show HN - Show HN: Hold.aero – Fly and Learn IFR flying in the browser",
+      "url": "https://app.hold.aero/fly",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 2
+    },
+    {
+      "id": "show-hn-dead-simple-email-email-api-for-ai-agents",
+      "name": "Show HN: Dead Simple Email – Email API for AI Agents",
+      "description": "HackerNews Show HN - Show HN: Dead Simple Email – Email API for AI Agents",
+      "url": "https://deadsimple.email/",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 2
+    },
+    {
+      "id": "show-hn-drakeai-ai-expense-tracker-you-log-by-texting-ios-and-android",
+      "name": "Show HN: DrakeAI – AI expense tracker you log by texting (iOS and Android)",
+      "description": "HackerNews Show HN - Show HN: DrakeAI – AI expense tracker you log by texting (iOS and Android)",
+      "url": "https://apps.apple.com/us/app/drakeai/id6762331893",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 2
+    },
+    {
+      "id": "show-hn-clawrium-a-cli-for-managing-ai-agent-fleet-across-multiple-instances",
+      "name": "Show HN: Clawrium – A CLI for managing AI agent fleet across multiple instances",
+      "description": "HackerNews Show HN - Show HN: Clawrium – A CLI for managing AI agent fleet across multiple instances",
+      "url": "https://ric03uec.github.io/clawrium/",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 3
+    },
+    {
+      "id": "show-hn-netlify-for-agents",
+      "name": "Show HN: Netlify for Agents",
+      "description": "HackerNews Show HN - Show HN: Netlify for Agents",
+      "url": "https://netlify.ai",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 7
+    },
+    {
+      "id": "show-hn-we-fixed-code-throughput-understanding-is-now-the-bottleneck",
+      "name": "Show HN: We Fixed Code Throughput. Understanding Is Now the Bottleneck",
+      "description": "HackerNews Show HN - Show HN: We Fixed Code Throughput. Understanding Is Now the Bottleneck",
+      "url": "https://blog.jaystuart.dev/stop-paying-your-ai-agent-to-re-learn-your-codebase-every-conversation/",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 4
+    },
+    {
+      "id": "show-hn-personal-ai-metrics-dashboard",
+      "name": "Show HN: Personal AI Metrics Dashboard",
+      "description": "HackerNews Show HN - Show HN: Personal AI Metrics Dashboard",
+      "url": "https://wakatime.com/ai",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 2
+    },
+    {
+      "id": "show-hn-ai-hermes-agent-an-independent-hermes-agent-install-guide",
+      "name": "Show HN: AI Hermes Agent – An independent Hermes Agent install guide",
+      "description": "HackerNews Show HN - Show HN: AI Hermes Agent – An independent Hermes Agent install guide",
+      "url": "https://ai-hermes-agent.com/install",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 2
+    },
+    {
+      "id": "show-hn-athletedata-ai-coach-for-endurance-athletes-that-messages-you-first",
+      "name": "Show HN: AthleteData – AI coach for endurance athletes that messages you first",
+      "description": "HackerNews Show HN - Show HN: AthleteData – AI coach for endurance athletes that messages you first",
+      "url": "https://www.athletedata.health",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-22",
+      "hnPoints": 8
+    },
+    {
+      "id": "show-hn-we-made-3m-jobs-searchable-on-a-globe-to-visualize-labor-markets",
+      "name": "Show HN: We made 3M jobs searchable on a globe to visualize labor markets",
+      "description": "HackerNews Show HN - Show HN: We made 3M jobs searchable on a globe to visualize labor markets",
+      "url": "https://map.rezi.ai/index.html",
+      "category": "image",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-23",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-i-made-a-simpler-api-for-chrome-s-on-device-llm",
+      "name": "Show HN: I made a simpler API for Chrome's on-device LLM",
+      "description": "HackerNews Show HN - Show HN: I made a simpler API for Chrome's on-device LLM",
+      "url": "https://www.npmjs.com/package/simple-chromium-ai",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-23",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-preflight-test-your-mcp-server-before-submitting-to-claude-openai",
+      "name": "Show HN: Preflight – Test your MCP server before submitting to Claude/OpenAI",
+      "description": "HackerNews Show HN - Show HN: Preflight – Test your MCP server before submitting to Claude/OpenAI",
+      "url": "https://m8ven.ai/preflight",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-23",
+      "hnPoints": 4
+    },
+    {
+      "id": "show-hn-kumbukum-open-source-memory-infrastructure-for-teams",
+      "name": "Show HN: Kumbukum, open source memory infrastructure for teams",
+      "description": "HackerNews Show HN - Show HN: Kumbukum, open source memory infrastructure for teams",
+      "url": "https://kumbukum.com/",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-23",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-deckweaver-create-ai-powered-google-slides-presentations-in-minutes",
+      "name": "Show HN: DeckWeaver – Create AI-powered Google Slides presentations in minutes",
+      "description": "HackerNews Show HN - Show HN: DeckWeaver – Create AI-powered Google Slides presentations in minutes",
+      "url": "https://usedeckweaver.com/login",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-23",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-ecstatic-dance-aggregator-for-worldwide-wellness-events",
+      "name": "Show HN: Ecstatic Dance Aggregator for worldwide wellness events",
+      "description": "HackerNews Show HN - Show HN: Ecstatic Dance Aggregator for worldwide wellness events",
+      "url": "https://ecstatic.events",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-23",
+      "hnPoints": 1
+    },
+    {
+      "id": "show-hn-contral-ai-learn-as-you-code-ide",
+      "name": "Show HN: Contral AI - Learn As You Code IDE",
+      "description": "HackerNews Show HN - Show HN: Contral AI - Learn As You Code IDE",
+      "url": "https://contral.ai",
+      "category": "code",
+      "tags": [
+        "HackerNews",
+        "Show HN",
+        "开发者推荐"
+      ],
+      "pricing": "免费 + 付费",
+      "featured": true,
+      "discoveredFrom": "HackerNews",
+      "addedAt": "2026-04-23",
+      "hnPoints": 2
+    }
+  ]
+}
